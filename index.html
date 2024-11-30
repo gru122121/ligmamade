@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>LIGMA MADE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Call Popup -->
+    <div class="call-popup" id="callPopup">
+        <div class="call-background"></div>
+        <div class="call-content">
+            <div class="caller-image">
+                <img src="https://cdn.prod.website-files.com/5d7e8885cad5174a2fcb98d7/64933f98a477f02e36a282d1_5eddd950e5cf1ec1fa5c2d83_virtual-influencer-john-pork.jpeg" alt="John Pork">
+            </div>
+            <div class="caller-info">
+                <h2>JOHN PORK</h2>
+                <p>incoming call...</p>
+            </div>
+            <div class="call-actions">
+                <button class="decline-btn" onclick="declineCall()">
+                    <span class="btn-icon">✕</span>
+                    <span class="btn-text">Decline</span>
+                </button>
+                <button class="accept-btn" onclick="acceptCall()">
+                    <span class="btn-icon">✓</span>
+                    <span class="btn-text">Accept</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rest of your content -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="title">LIGMA MADE</h1>
+            <div class="nav-buttons">
+                <button class="nav-btn" data-section="productsSection">Products</button>
+                <button class="nav-btn" data-section="contacts">Contact</button>
+            </div>
+        </div>
+    </div>
+    <section class="products-section" id="productsSection">
+        <div class="products-container" id="productsContainer">
+            <!-- Products will be inserted here -->
+        </div>
+    </section>
+
+    <audio id="ringtone" loop>
+        <source src="https://dl.prokerala.com/downloads/ringtones/files/mp3/7120-download-iphone-6-original-ringtone-42676.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="script.js"></script>
+
+    <!-- Add this before the closing body tag -->
+    <section class="contacts" id="contacts">
+        <div class="contacts-container">
+            <h2>Contact Us</h2>
+            <div class="social-links">
+                <a href="https://weidian.com/?userid=1722231041" target="_blank" class="social-link">
+                    <img src="https://g.alicdn.com/s.gif" alt="Weidian" class="social-icon weidian">
+                    <span>Shop on Weidian</span>
+                </a>
+                <div class="social-link wechat-container">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik04LjQgMTUuM2MtMS4yIDAtMi4xLTAuOS0yLjEtMi4xczAuOS0yLjEgMi4xLTIuMWMyLjEgMCAyLjEgMi4xIDIuMSAyLjFTMTAuNSAxNS4zIDguNCAxNS4zek0xNS42IDE1LjNjLTEuMiAwLTIuMS0wLjktMi4xLTIuMXMwLjktMi4xIDIuMS0yLjFjMi4xIDAgMi4xIDIuMSAyLjEgMi4xUzE3LjcgMTUuMyAxNS42IDE1LjN6Ii8+PC9zdmc+" alt="WeChat" class="social-icon wechat">
+                    <span>Contact on WeChat</span>
+                    <div class="qr-popup">
+                        <!-- Replace with your actual WeChat QR code -->
+                        <img src="https://si.geilicdn.com/ch1756130041-244d00000192c3a1ab040a23038e_1194_1575.jpg" alt="WeChat QR Code" class="qr-code">
+                        <p>Scan to add on WeChat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 
